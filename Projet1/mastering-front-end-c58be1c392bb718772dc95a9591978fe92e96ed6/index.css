@@ -85,8 +85,47 @@ button:hover {
 .icon-part-container{
     color: aliceblue;
     background:#151515 ;
-    height: 30%;
+    height: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
+}
+.list-icon-part{
+  
+  text-align: center;
+  justify-content: center;
+}
+.list-icon-part h3{
+  font-size: 0.9rem;
+  margin: 15px;
+
+}
+.list-icon-part p{
+  font-size: 0.8rem;
+  margin: 15px;
+}
+.list-icon-part button {
+  margin-bottom: 15px;
+
+}
+/*********************header*****************************/
+.news-part{
+  margin: 40px;
+  background: red;
+  height: 80%;
+}
+
+.header-news{
+  background: wheat;
+  display: grid;
+  grid-template-columns: 70% 30%;
+
+}
+
+.main-news-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:20px;
 }
