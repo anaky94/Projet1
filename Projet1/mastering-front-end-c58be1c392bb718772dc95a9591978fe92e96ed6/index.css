@@ -106,25 +106,25 @@ button:hover {
 .list-icon-part button {
   margin-bottom: 15px;
 }
-/*********************Section New part *****************************/
+/* Main news */
 
 .header-news {
-  background: wheat;
   display: grid;
   grid-template-columns: 70% 30%;
+  font-size: 1.2rem;
 }
 .news-part {
   margin: 20px;
-  background: red;
-  height: 80%;
-  position: relative;
+  height: 50%;
 }
 .main-news {
   display: flex;
-  margin: auto;
 }
-
 .main-news-container {
   display: flex;
-  margin: auto;
+}
+.main-news-container div {
+  margin: 30px;
+  align-items: center;
+  justify-content: space-between;
 }
