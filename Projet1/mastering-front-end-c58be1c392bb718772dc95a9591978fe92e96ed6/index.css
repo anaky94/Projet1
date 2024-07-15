@@ -3,14 +3,14 @@
 * {
   font-family: "Ubuntu", sans-serif;
   margin: 0;
-  /* padding: 5px; */
   box-sizing: border-box;
-  border-radius: solid 1px black; 
   text-decoration: none;
 }
+
 body {
   height: 100vh;
 }
+
 li {
   list-style: none;
 }
@@ -85,11 +85,15 @@ button:hover {
 .icon-part-container {
   color: aliceblue;
   background: #151515;
-  height: 60%;
+  height: 300%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+}
+.list-icon-part .lip-logo{
+  margin: 30px;
+  
 }
 .list-icon-part {
   text-align: center;
@@ -99,6 +103,7 @@ button:hover {
   font-size: 0.9rem;
   margin: 15px;
 }
+
 .list-icon-part p {
   font-size: 1rem;
   margin: 15px;
@@ -114,18 +119,16 @@ button:hover {
   display: grid;
   grid-template-columns: 70% 30%;
   font-size: 1.2rem;
-  /* margin: 30px; */
   padding: 30px;
 }
 .news-part {
-  /* margin: 50px;*/
   height: 80%; 
   background: #f7f7f7;
   margin: 0px;
 }
 
 .contact{
-  /* height: 70%; */
+  
 }
 
 .main-news .main-news-container{
@@ -146,10 +149,8 @@ button:hover {
   text-align: center;
 }
 .contact-list{
-  /* display: grid;
-  text-align: center; */
   margin: 10px;
-  /* justify-content: center; */
+  
   
 }
 
